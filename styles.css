@@ -1,0 +1,56 @@
+css
+/* General Styles */
+html , body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    text-align: center;
+    height: 100%;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #161617;
+    height: 5%;
+}
+
+nav ul li a {
+    color: #F8F0E5;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #FFF2D8;
+    color: #333;
+}
+
+img{
+    width:30%;
+    height:60%;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #EADBC8 ;
+    color: rgb(13, 14, 13);
+}
+
+/* Project Section Styles */
+#Projects {
+    background-color: #DAC0A3;
+    color: rgb(13, 14, 13);
+}
+/* Contact Section Styles */
+#Contact {
+    background-color:#FFFADD;
+    text-decoration: none; 
+}
